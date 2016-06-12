@@ -1,0 +1,31 @@
+document.write('<font color="#990000"><strong><u>Additional Materials:</u></strong></font><br><br>');
+if(window.location != "http://www.pni.org/research/anomalous/deja/")
+	document.write('<a href="http://www.pni.org/research/anomalous/deja/">Déjà Vu Links</a><br>');
+if(window.location != "http://www.pni.org/research/anomalous/chess/")
+	document.write('<a href="http://www.pni.org/research/anomalous/chess/">Chess Survival</a><br/>');
+if(window.location != "http://www.pni.org/neuropsychiatry/medicine/scientific/")
+	document.write('<a href="http://www.pni.org/neuropsychiatry/medicine/scientific/">Parapsychology Importance</a><br>');
+if(window.location != "http://www.pni.org/neuropsychiatry/medicine/brain/TL/")
+	document.write('<a href="http://www.pni.org/neuropsychiatry/medicine/brain/TL/">Subjective paranormal experiences in temporal lobe dysfunction</a><br>');
+if(window.location != "http://www.pni.org/neuropsychiatry/obe/")
+	document.write('<a href="http://www.pni.org/neuropsychiatry/obe/">Out of body experience: A relook Vernon M. Neppe </a><br>');
+if(window.location != "http://www.pni.org/esp/")
+	document.write('<a href="http://www.pni.org/esp/">Anomalistic Psychology</a><br>');
+if(window.location != "http://www.pni.org/philosophy/vortex.html")
+	document.write('<a href="http://www.pni.org/philosophy/vortex.html">Vortex Pluralism (Dr Neppe&#39;s philosophical theory)</a><br>');
+if(window.location != "http://www.pni.org/research/anomalous/classif_art/")
+	document.write('<a href="http://www.pni.org/research/anomalous/classif_art/">Subjectivity Article Series</a><br>');
+if(window.location != "http://www.brainvoyage.com/ctbm/")
+	document.write('<a href="http://www.brainvoyage.com/ctbm/">Dr Neppe&#39;s classic Cry the Beloved Mind</a><br>');
+if(window.location != "http://www.pni.org/research/anomalous/")
+	document.write('<a href="http://www.pni.org/research/anomalous/">Anomalistic Experience</a><br>');
+	
+if(window.location != "http://www.pni.org/esp/pa2009/seattle/")
+	document.write('<a href="http://www.pni.org/esp/pa2009/seattle/">SEATTLE phenomenological research</a><br>');
+if(window.location != "http://www.pni.org/esp/pa2009/neuroscience/")
+	document.write('<a href="http://www.pni.org/esp/pa2009/neuroscience/">Neuroscience reductionism critique</a><br>');
+if(window.location != "http://www.pni.org/esp/pa2009/obe/")
+	document.write('<a href="http://www.pni.org/esp/pa2009/obe/">Out of body experience: A new classification.</a><br>');
+	
+if(window.location != "http://www.pni.org/philosophy/neologisms1/")
+	document.write('<a href="http://www.pni.org/philosophy/neologisms1/">Déjà Vu Neologisms</a><br>');
