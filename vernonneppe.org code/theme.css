@@ -1,0 +1,296 @@
+/*********************************************************
+**********************************************************
+
+Folder: Theme302_Business1
+Name: Business 1
+Cat: Business & Legal
+
+**********************************************************
+*********************************************************/
+/*------------------------------------
+GENERAL
+------------------------------------*/
+body {
+    margin: auto;
+}
+
+.sf_outer_wrapper {
+    width: 840px;
+    margin: 50px auto;
+    padding: 5px;
+}
+
+.sf_wrapper {
+	width: 840px;
+	position: relative;
+	background-color: #fff;
+	background-image: url(images/linesback.gif);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+
+a {
+    color: #000;
+}
+a:hover {
+    color: #999999;
+}
+a:visited {
+    color: #000;
+}
+
+/* ------------------------------------
+HEADER
+------------------------------------ */
+.sf_header_wrapper {
+    padding: 20px;
+    height: 119px;
+    width: 575px;
+    float:right;
+}
+
+.sf_extra4 { /* header photo */
+	width: 219px;
+	height: 159px;
+	float:left;
+	background-image: url(images/time_guy.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.sf_main_header p, .sf_sub_header p { margin: 0; padding: 0; }
+.sf_main_header {
+	text-align: left;
+	height: 50px;
+	overflow: hidden;
+	font-family: Verdana, Geneva, Kalimati, sans-serif;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: normal;
+	
+}
+
+.sf_sub_header {
+	text-align: left;
+	height: 40px;
+	overflow: hidden;
+	font-family: Verdana, Geneva, Kalimati, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+/* ------------------------------------
+NAVIGATION
+------------------------------------ */
+.sf_navigation {
+    display: none;
+}
+
+.sf_navigation_top {
+	clear:both;
+	width: 100%;
+	height: auto;
+	background-color: #F7F7F7;
+	background-image: url(images/nav_bkgd_tile.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+
+.sf_navigation_top ul {
+    margin: 0 0;
+    height: auto !important;
+    height: 1%;
+    padding-left: 0;
+}
+
+.sf_navigation_top ul:after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 1px;
+    clear: both;
+}
+
+.sf_navigation_top ul {
+    list-style-type: none;
+}
+
+.sf_navigation_top ul li {
+	float: left;
+	width: auto !important;
+	width: 5px;
+	white-space: nowrap;
+	background-color: #F7F7F7;
+	background-image: url(images/nav_bkgd.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+
+.sf_navigation_top ul li a {
+	height: 44px;
+	margin: 0 0 0 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	line-height: 44px;
+	padding: 0 10px;
+	font-family: Verdana, Geneva, Kalimati, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	background-image: url(images/nav_right_edge.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	color: #000;
+}
+
+.sf_navigation_top ul li a:hover {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	background-image: url(images/nav_right_edge_hilite.jpg);
+	background-repeat: repeat-x;
+	background-position: right bottom;
+}
+.sf_navigation_top ul li a:visited{
+	color: #000000;
+}
+.sf_subnavigation, .sf_subnavigation2 {
+	display:none;
+}
+
+/*------------------------------------
+	Dropdown
+------------------------------------*/
+#Nav1 iframe {
+	position: absolute;
+	/* account for the border */
+	left: -0.25em;
+	top: -0.25em;
+	z-index: 0;
+	filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0);
+	margin-left: 3px;
+}
+#Nav1, 
+#Nav1 ul { /* all lists */
+	list-style:none;
+	width:100%;
+}
+
+#Nav1 a {
+	display:block;
+}
+
+#Nav1 li { /* all list items */
+	float:left;
+}
+
+#Nav1 li ul { /* second-level lists */
+	position:absolute;
+	left:-999em;
+	width:120px;
+	margin:0;
+	z-index:1000;
+}
+#Nav1 li ul li{
+	margin:0;
+	background:none;
+	padding:0;
+}
+#Nav1 li ul li a{
+	background:#ffffff;
+	color:#333333;
+	line-height:normal;
+	width:120px;
+	height:auto;
+	padding:8px 7px;
+	white-space:normal;
+	border:none;
+}
+#Nav1 li ul li a:hover{
+	background:#999999;
+}
+#Nav1 li:hover ul, 
+#Nav1 li.sfhover ul { /* lists nested under hovered list items */
+	left:auto;
+}
+
+/*------------------------------------
+CONTENT
+------------------------------------*/
+.sf_pagetitle {
+	clear: both;
+	padding: 20px 0 0 20px;
+	text-align: left;
+	min-height: 30px;
+	height: auto !important;
+	height: 30px;	
+	font-family: Verdana, Geneva, Kalimati, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+
+.sf_pagetitle h1 {
+	font-size: 24px;
+	font-weight: normal;
+	margin:0px;
+}
+
+.sf_content {    
+    padding: 20px 0 0 20px;
+    margin: 0px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Kalimati, sans-serif;
+    min-height: 200px;
+	height: auto !important;
+    height: 200px; 
+}
+
+.sf_content:after {
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    font-size: 1px;
+    clear: both;
+}
+
+/*------------------------------------
+FOOTER
+------------------------------------*/
+.sf_footer {
+    padding: 20px 20px 10px 20px;
+    font-size: 12px;
+    text-align: center;
+    font-family: Verdana, Geneva, Kalimati, sans-serif;
+}
+
+/*------------------------------------
+BANNER
+------------------------------------*/
+.sf_banner {
+    margin-bottom: 35px;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 12px;
+}
+.sf_banner a{
+   color: #000;
+}
+
+.sf_banner div#bannerLink {
+    padding-top: 10px;
+}
+/**
+ * Sticking flyout menu bug
+ *
+ * @bugfix
+ * @affected ie7
+ * @css-for ie7
+ * @valid yes
+ */
+#Nav1 li:hover, #Nav1 li.hover {  
+    position: static;  
+} 
